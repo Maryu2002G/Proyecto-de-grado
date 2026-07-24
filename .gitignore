@@ -1,0 +1,52 @@
+# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+
+# dependencies
+/node_modules
+
+# next.js
+/.next/
+/out/
+
+# production
+/build
+
+# debug
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.pnpm-debug.log*
+
+# env files
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# vercel
+.vercel
+
+# typescript
+*.tsbuildinfo
+next-env.d.ts
+
+# database (solo el directorio raíz /data/, no rutas como app/api/user/data/)
+/data/
+
+# Claude Code — solo local, nunca al repositorio
+.claude/
+.claude
+CLAUDE.md
+CLAUDE.local.md
+CLAUDE.*.md
+*.claude.md
+claude.json
+claude-*.json
+claude-*.md
+claude.local.*
+.claudeignore
+memory/
+MEMORY.md
+*.memory.md
+EXPOSICION.md
+guion_presentacion.md
